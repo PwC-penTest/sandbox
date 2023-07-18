@@ -1,0 +1,3 @@
+https://github.com/redcanaryco/atomic-red-team/raw/master/atomics/T1218.002/bin/calc.cpl
+
+control.exe #{cpl_file_path}
