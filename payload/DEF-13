@@ -1,0 +1,10 @@
+Add-Type -TypeDefinition @'
+public class Test {
+    public static void Main(string[] args) {
+        System.Console.WriteLine("tweet, tweet");
+    }
+}
+'@ -OutputAssembly "C:\TEMP\svchost.exe"
+Start-Process -FilePath "C:\TEMP\svchost.exe"
+cd C:\TEMP\
+.\svchost.exe
